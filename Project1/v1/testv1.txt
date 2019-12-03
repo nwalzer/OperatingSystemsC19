@@ -1,0 +1,17 @@
+0
+1
+2
+-al --author --color
+/home/nwalzer
+p
+c
+/home/nwalzer/Project1
+p
+a
+factor 90
+3
+4
+a
+world
+4
+e

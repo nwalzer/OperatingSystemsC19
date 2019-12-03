@@ -1,0 +1,38 @@
+Nathan Walzer - nwalzer
+
+Phase 1:
+
+Phase 1 of this project involves intercepting system calls to print information. The three intercepted calls are open, close, and read. Upon opening a file, while this module is inserted, in the syslog a message will print stating that "User xxx is opening file: /yy/zz." When closing a file the message in the syslog will print "User xxx is closing file with descriptor: YY." When reading a file, if that file contains the word "VIRUS" and the user ID > 1000 (i.e. not the kernel) the message in syslog will say "User xxx read from file descriptor YY, but that read contained malicious code!."
+
+This module can be made by running make in the phase 1 folder and inserted using the command "sudo insmod sysopen.ko"
+
+There are also three testcases to determine the accuracy of the three system calls: infected, infected2, and notinfected
+A small snapshot of the results of one such test is located in the file syslogSnippet
+
+
+
+Phase 2:
+
+Phase 2 of this project gets more complicated by turning cs_3013_syscall2 into an ancestry function. 
+Upon calling the modified syscall2, the program utilizes pid_task and find_vpid to bring up the task_struct for the target pid. It then iterates through the target's children using list_for_each_entry. It does this also for siblings. Children and siblings are stored in their respective fields within an ancestry struct, both fields are maxxed out at 100 elements. In order to find the parent processes it will recursively call the getAncestors function, as each task_struct links to its parent. The recursion ends once the parent list runs out, usually, but not always, at init.
+
+The fields within the ancestry struct are arrays of pids and can be access like a normal array field.
+
+There are three testcases for phase 2: 
+1)	The first is the assignment-mandated procAncestry, which takes in a single pid and returns whether or not the system call succeeded. While procAncestry does NOT print to the console the system call prints to the kernel, so that is where the results of procAncestry lie.
+2)	The second is test1, which runs, forks, and allows the child to call the modified syscall2 and finish. Once the parent runs its child will have terminated and it will print out as having no children. This code shows both the expected values and the values returned by the system call
+3)	The third if test2, which is extremely similar to test1. The only difference is that there is no guarantee of which process, child or parent, runs first. This test can lead to child orphaning, normal execution, or a childless parent. The code prints out the expected or acceptable values and those returned by the system call
+
+
+References From Online:
+https://stackoverflow.com/questions/1069683/any-example-of-copy-from-user-kernel-and-userspace
+isis.poly.edu/kulesh/stuff/src/klist/
+https://stackoverflow.com/questions/18154296/child-and-parent-process-id
+
+
+
+
+
+
+
+

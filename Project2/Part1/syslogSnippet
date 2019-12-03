@@ -1,0 +1,11 @@
+The following is a small snippet of the literally thousands of open/close prints from the syslog. In this case I was opening a test file which contained the word "VIRUS"
+
+Feb  5 19:15:10 nwalzerOSVM kernel: [55220.903596] User 1000 is opening file: /usr/share/applications/gedit.desktop
+Feb  5 19:15:10 nwalzerOSVM kernel: [55220.903656] User 1000 is closing file: 11
+Feb  5 19:15:10 nwalzerOSVM kernel: [55220.903757] User 1000 is opening file: /etc/xdg/autostart/nautilus-autostart.desktop
+Feb  5 19:15:10 nwalzerOSVM kernel: [55220.903781] User 1000 is closing file: 11
+Feb  5 19:15:10 nwalzerOSVM kernel: [55220.904706] User 1000 read from file descriptor 8, but that read contained malicious code!
+Feb  5 19:15:10 nwalzerOSVM kernel: [55220.904750] User 1000 read from file descriptor 8, but that read contained malicious code!
+Feb  5 19:15:10 nwalzerOSVM kernel: [55220.904761] User 1000 read from file descriptor 8, but that read contained malicious code!
+Feb  5 19:15:10 nwalzerOSVM kernel: [55220.905734] User 1000 is opening file: /usr/lib/i386-linux-gnu/gedit/tls/i686/sse2/cmov/libgedit.so
+Feb  5 19:15:10 nwalzerOSVM kernel: [55220.905743] User 1000 is opening file: /usr/lib/i386-linux-gnu/gedit/tls/i686/sse2/libgedit.so

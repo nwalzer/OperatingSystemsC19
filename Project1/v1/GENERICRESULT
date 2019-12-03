@@ -1,0 +1,160 @@
+===== Mid-Day Commander, v0 =====
+G'Day, Commander! What command would you like to run?
+	0. whoami  : Prints out the result of the whoami command
+	1. last    : Prints out the result of the last command
+	2. ls      : Prints out the result of a listing on a user-specified path
+	a. add command : Adds a new command to the menu
+	c. change directory : Changes process working directory
+	e. exit : Leave Mid-Day Commander
+	p. pwd : Prints working directory
+Option?: nwalzer
+
+-- Statistics --
+Elapsed Time: 1ms
+Page Faults: 0
+Page Faults (reclaimed): 93
+
+G'Day, Commander! What command would you like to run?
+	0. whoami  : Prints out the result of the whoami command
+	1. last    : Prints out the result of the last command
+	2. ls      : Prints out the result of a listing on a user-specified path
+	a. add command : Adds a new command to the menu
+	c. change directory : Changes process working directory
+	e. exit : Leave Mid-Day Commander
+	p. pwd : Prints working directory
+Option?: nwalzer  tty7         :0               Fri Jan 25 17:33    gone - no logout
+reboot   system boot  4.4.162nwalzer   Fri Jan 25 17:33   still running
+nwalzer  tty7         :0               Wed Jan 23 18:51 - crash (1+22:42)
+reboot   system boot  4.4.162nwalzer   Wed Jan 23 18:50   still running
+nwalzer  tty7         :0               Wed Jan 23 11:32 - crash  (07:18)
+reboot   system boot  4.4.162nwalzer   Wed Jan 23 11:32   still running
+nwalzer  tty7         :0               Sun Jan 20 15:27 - crash (2+20:04)
+reboot   system boot  4.4.162nwalzer   Sun Jan 20 15:27   still running
+nwalzer  tty7         :0               Wed Jan 16 16:36 - crash (3+22:51)
+reboot   system boot  4.4.162nwalzer   Wed Jan 16 16:36   still running
+nwalzer  tty7         :0               Tue Jan 15 11:09 - down   (12:28)
+reboot   system boot  4.4.162nwalzer   Tue Jan 15 11:09 - 23:38  (12:28)
+nwalzer  tty7         :0               Mon Jan 14 12:46 - down   (00:09)
+reboot   system boot  4.4.162nwalzer   Mon Jan 14 07:25 - 12:56  (05:30)
+nwalzer  tty7         :0               Mon Jan 14 12:05 - down   (00:40)
+reboot   system boot  4.4.162nwalzer   Mon Jan 14 06:44 - 12:46  (06:01)
+nwalzer  tty7         :0               Mon Jan 14 12:03 - down   (00:02)
+reboot   system boot  4.4.162nwalzer   Mon Jan 14 06:42 - 12:05  (05:22)
+nwalzer  tty7         :0               Sun Jan 13 19:28 - crash  (11:13)
+reboot   system boot  4.4.0-141-generi Sun Jan 13 19:28 - 12:05  (16:36)
+nwalzer  tty7         :0               Sun Jan 13 19:00 - down   (00:26)
+reboot   system boot  4.4.0-31-generic Sun Jan 13 19:00 - 19:27  (00:27)
+
+wtmp begins Sun Jan 13 19:00:37 2019
+
+-- Statistics --
+Elapsed Time: 1ms
+Page Faults: 0
+Page Faults (reclaimed): 120
+
+G'Day, Commander! What command would you like to run?
+	0. whoami  : Prints out the result of the whoami command
+	1. last    : Prints out the result of the last command
+	2. ls      : Prints out the result of a listing on a user-specified path
+	a. add command : Adds a new command to the menu
+	c. change directory : Changes process working directory
+	e. exit : Leave Mid-Day Commander
+	p. pwd : Prints working directory
+Option?: -- Current Directory --
+Directory: /home/nwalzer/Desktop/Project1/v1
+
+G'Day, Commander! What command would you like to run?
+	0. whoami  : Prints out the result of the whoami command
+	1. last    : Prints out the result of the last command
+	2. ls      : Prints out the result of a listing on a user-specified path
+	a. add command : Adds a new command to the menu
+	c. change directory : Changes process working directory
+	e. exit : Leave Mid-Day Commander
+	p. pwd : Prints working directory
+Option?: -- Change Directory --
+New Directory?: 
+G'Day, Commander! What command would you like to run?
+	0. whoami  : Prints out the result of the whoami command
+	1. last    : Prints out the result of the last command
+	2. ls      : Prints out the result of a listing on a user-specified path
+	a. add command : Adds a new command to the menu
+	c. change directory : Changes process working directory
+	e. exit : Leave Mid-Day Commander
+	p. pwd : Prints working directory
+Option?: -- Current Directory --
+Directory: /
+
+G'Day, Commander! What command would you like to run?
+	0. whoami  : Prints out the result of the whoami command
+	1. last    : Prints out the result of the last command
+	2. ls      : Prints out the result of a listing on a user-specified path
+	a. add command : Adds a new command to the menu
+	c. change directory : Changes process working directory
+	e. exit : Leave Mid-Day Commander
+	p. pwd : Prints working directory
+Option?: 
+-- Add Command --
+Command to Add?: Okay, added with ID 3
+
+G'Day, Commander! What command would you like to run?
+	0. whoami  : Prints out the result of the whoami command
+	1. last    : Prints out the result of the last command
+	2. ls      : Prints out the result of a listing on a user-specified path
+	3. free -m : user-inputted command
+	a. add command : Adds a new command to the menu
+	c. change directory : Changes process working directory
+	e. exit : Leave Mid-Day Commander
+	p. pwd : Prints working directory
+Option?: 
+-- Add Command --
+Command to Add?: Okay, added with ID 4
+
+G'Day, Commander! What command would you like to run?
+	0. whoami  : Prints out the result of the whoami command
+	1. last    : Prints out the result of the last command
+	2. ls      : Prints out the result of a listing on a user-specified path
+	3. free -m : user-inputted command
+	4. free 1 2 3 4 5 6 7 8 9 10 1 2 3 4 5 6 7 8 9 10 1 2 3 4 5 6 7 8 9 10 1 : user-inputted command
+	a. add command : Adds a new command to the menu
+	c. change directory : Changes process working directory
+	e. exit : Leave Mid-Day Commander
+	p. pwd : Prints working directory
+Option?:               total        used        free      shared  buff/cache   available
+Mem:           2013         482         681           8         849        1287
+Swap:          2045           0        2045
+
+-- Statistics --
+Elapsed Time: 2ms
+Page Faults: 0
+Page Faults (reclaimed): 144
+
+G'Day, Commander! What command would you like to run?
+	0. whoami  : Prints out the result of the whoami command
+	1. last    : Prints out the result of the last command
+	2. ls      : Prints out the result of a listing on a user-specified path
+	3. free -m : user-inputted command
+	4. free 1 2 3 4 5 6 7 8 9 10 1 2 3 4 5 6 7 8 9 10 1 2 3 4 5 6 7 8 9 10 1 : user-inputted command
+	a. add command : Adds a new command to the menu
+	c. change directory : Changes process working directory
+	e. exit : Leave Mid-Day Commander
+	p. pwd : Prints working directory
+Option?:               total        used        free      shared  buff/cache   available
+Mem:        2062240      494476      697948        8308      869816     1318756
+Swap:       2095100           0     2095100
+
+-- Statistics --
+Elapsed Time: 2ms
+Page Faults: 0
+Page Faults (reclaimed): 145
+
+G'Day, Commander! What command would you like to run?
+	0. whoami  : Prints out the result of the whoami command
+	1. last    : Prints out the result of the last command
+	2. ls      : Prints out the result of a listing on a user-specified path
+	3. free -m : user-inputted command
+	4. free 1 2 3 4 5 6 7 8 9 10 1 2 3 4 5 6 7 8 9 10 1 2 3 4 5 6 7 8 9 10 1 : user-inputted command
+	a. add command : Adds a new command to the menu
+	c. change directory : Changes process working directory
+	e. exit : Leave Mid-Day Commander
+	p. pwd : Prints working directory
+Option?: Goodbye, Commander
