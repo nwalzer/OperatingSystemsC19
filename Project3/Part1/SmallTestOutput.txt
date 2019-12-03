@@ -1,0 +1,163 @@
+./program 2 10 10 7 5 30 45
+
+PIRATE: Visit #0
+Total wait time: 0
+Total visit time: 5
+Total Gold Owed: 5
+
+
+PIRATE: Visit #0
+Total wait time: 0
+Total visit time: 4
+Total Gold Owed: 4
+
+
+PIRATE: Visit #0
+Total wait time: 0
+Total visit time: 0
+Total Gold Owed: 0
+
+
+NINJA: Visit #0
+Total wait time: 6
+Total visit time: 2
+Total Gold Owed: 2
+
+
+NINJA: Visit #0
+Total wait time: 0
+Total visit time: 2
+Total Gold Owed: 2
+
+
+NINJA: Visit #0
+Total wait time: 7
+Total visit time: 9
+Total Gold Owed: 9
+
+
+NINJA: Visit #0
+Total wait time: 0
+Total visit time: 5
+Total Gold Owed: 5
+
+
+NINJA: Visit #0
+Total wait time: 2
+Total visit time: 2
+Total Gold Owed: 2
+
+
+PIRATE: Visit #0
+Total wait time: 9
+Total visit time: 0
+Total Gold Owed: 0
+
+
+PIRATE: Visit #0
+Total wait time: 8
+Total visit time: 6
+Total Gold Owed: 6
+
+
+PIRATE: Visit #0
+Total wait time: 0
+Total visit time: 9
+Total Gold Owed: 9
+
+
+NINJA: Visit #1
+Total wait time: 3
+Total visit time: 1
+Total Gold Owed: 3
+
+
+NINJA: Visit #0
+Total wait time: 3
+Total visit time: 7
+Total Gold Owed: 7
+
+
+PIRATE: Visit #0
+Total wait time: 12
+Total visit time: 6
+Total Gold Owed: 6
+
+
+PIRATE: Visit #0
+Total wait time: 7
+Total visit time: 7
+Total Gold Owed: 7
+
+
+PIRATE: Visit #0
+Total wait time: 21
+Total visit time: 3
+Total Gold Owed: 3
+
+
+NINJA: Visit #0
+Total wait time: 2
+Total visit time: 5
+Total Gold Owed: 5
+
+
+NINJA: Visit #0
+Total wait time: 4
+Total visit time: 7
+Total Gold Owed: 7
+
+
+PIRATE: Visit #1
+Total wait time: 0
+Total visit time: 1
+Total Gold Owed: 8
+
+
+NINJA: Visit #0
+Total wait time: 0
+Total visit time: 1
+Total Gold Owed: 1
+
+
+PIRATE: Visit #1
+Total wait time: 0
+Total visit time: 14
+Total Gold Owed: 14
+
+
+NINJA: Visit #0
+Total wait time: 11
+Total visit time: 6
+Total Gold Owed: 6
+
+
+NINJA: Visit #1
+Total wait time: 0
+Total visit time: 3
+Total Gold Owed: 4
+
+
+PIRATE: Visit #0
+Total wait time: 0
+Total visit time: 4
+Total Gold Owed: 4
+
+
+NINJA: Visit #2
+Total wait time: 0
+Total visit time: 4
+Total Gold Owed: 8
+
+
+Team 0 was free for 172 seconds
+Team 0 was busy with pirates for 41 seconds and busy with ninjas for 37 seconds
+Team 1 was free for 215 seconds
+Team 1 was busy with pirates for 18 seconds and busy with ninjas for 17 seconds
+Ninjas had 0 free costumes and owe 54 gold
+Pirates had 0 free costumes and owe 59 gold
+Average queue length was 0
+Average gold per visit: 4
+Gross Revenue was 113
+Total Profit was 103
+

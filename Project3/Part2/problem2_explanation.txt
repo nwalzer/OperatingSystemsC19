@@ -1,0 +1,37 @@
+Phase 1:
+This one works by implementing a strict queue with only a single car in the intersection at a time. A car approaches the intersection, acquires the lock to the queue, and enters the queue at the furthest back position (i.e. it makes itself last). It then unlocks the queue lock and waits for its turn. The reason it must lock before adding itself to the queue is that it must prevent the queue from being edited while it makes the edits it needs to. If two cars try to insert themselves into the same exact position at the same time then we will see undefined behavior. 
+After waiting its turn, the car acquires the queue lock, dequeues itself, releases the lock, and will proceed to attempt to acquire all of the locks for the path it is taking, in the order it will travel through them. Once all locks are acquired the car moves through the intersection. Upon exiting, the car signals to the next car in the queue that it is its turn to move through the intersection.
+This method is suboptimal because it does not allow for multiple vehicles in the intersection at the same time. A car going left needs to acquire 3 quadrants (say 1, 2, and 3). While it is doing so if another car approaches and only needs to acquire quadrant 4 and go right, it will not be allowed to do so because it is not its turn, even though there should be nothing stopping it from going right. Over time this can cause backups and slow down intersection performance as cars that would normally be able to go are left at a standstill because they weren't at the intersection first.
+
+Phase 2:
+This mindset produces a deadlock when four cars coming from four different directions all attempt to go straight (or left) all at once. Car 1 takes quadrant 1, 2 takes 2, 3 takes 3, and 4 takes 4. However when any of the cars attempt to get space in the next quadrant they will instead hit another car, which is in a similar situation. Each of the 4 cars is waiting on the next one to move out of its way, with no one being willing to back up and let other cars through.
+This creates a cyclic deadlock in which 1 waits on 2 waits on 3 waits on 4 waits on 1.
+This deadlock can be prevented (and actually is prevented in the code) by limiting the number of cars in the intersection at any one time to 3. Reducing the number of cars to 3 would prevent the cyclic waiting seen previously, removing any one of the 4 cars would allow the other 3 to head into and through the intersection with no issues (only waiting, temporarily, on one of them being a slow driver). This leads to an ever-so-slight drop in performance as the instances where, say, 4 drivers would be able to go through the intersection all at once (all right turns) would not be allowed. This condition is rare enough that it is worth the slight drop in edge case performance to combat deadlocks.
+
+OUR SOLUTION:
+Our solution reaches almost full efficiency of cars passing through. Firstly, each of the 20 cars randomizes its entrance direction and destination, then enqueuing itself. This simulates a car arriving at the intersection. The simulation works on a first-come first-serve basis. There are three controlling threads (traffic cops). These three controlling threads run infinitely and have a slightly delayed startup relative to the cars initially enqueuing themselves, but this was just to avoid a ton of useless print statements and has no effect on later performance. 
+The three managing threads each function exactly the same. They dequeue the head of the queue. If it is null then the thread prints that the queue was empty, sleeps for one second, and begins looping again. If it is not null (meaning it is a car) the thread determines the direction the car came from and the direction it is heading. These values are stored in the car's struct. The manager thread prints the car's entrance direction and left, right, or straight. 
+Each of the 12 combinations of entrance and destination have their own order of acquiring semaphores. The managing thread will wait on the first quadrant's semaphore. Upon getting the first semaphore it will print the car's location, wait on the next quadrant, post the first quadrant, and call sleep(0). The reason the thread calls sleep(0) is so that the other 2 manager threads get the chance to put a car in the intersection if they would be able to. Sleep(0) allows us to maximize parallelism. Once execution comes back to the original manager thread it repeats this process of print, wait, post, sleep. This process continues for each car in the queue until all cars are through and the program is done, or can be modified to loop infinitely (5 hours of continuous runtime was tested successfully). 
+
+MEETING REQUIREMENTS:
+No two drivers in the same quadrant: semaphores initialized to 1 ensure only one car in a quadrant at a time. This is coupled with the "move to the next quadrant before posting the previous quadrant" approach.
+
+Single lane of traffic: one megaqueue treats all directions equally and forces cars from the same direction into a single-file line.
+
+Improve without starving: Since all directions are placed into the same queue a thread only needs to wait its turn before going. The only way a thread can starve is if a malicious scheduler ceases operation of one of the manager threads mid-execution, the equivalent of stopping a car in the middle of the intersection.
+
+Maximize parallelism: Up to 3 cars may be in the intersection at any given time (3 managing threads). There are a few conditions in which parallelism is not fully maximized, however these are mainly edge cases requiring a specific sequence of random numbers with an incredibly low chance of occurring. 3 cars approaching from the same direction while a fourth car in a different direction tries to turn right would not allow the fourth car to immediately turn right, even if it is safe to do so. However, the first car from the "same" direction group to make it through would allow its manager to promptly push the right-turning car through, only delaying it slightly. This is part of the performance tradeoff when combating deadlocks.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

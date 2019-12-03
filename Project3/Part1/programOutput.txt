@@ -1,0 +1,833 @@
+./program 4 50 50 7 5 120 75
+
+NINJA: Visit #0
+Total wait time: 0
+Total visit time: 2
+Total Gold Owed: 2
+
+
+NINJA: Visit #0
+Total wait time: 0
+Total visit time: 0
+Total Gold Owed: 0
+
+
+NINJA: Visit #0
+Total wait time: 0
+Total visit time: 7
+Total Gold Owed: 7
+
+
+NINJA: Visit #0
+Total wait time: 0
+Total visit time: 2
+Total Gold Owed: 2
+
+
+NINJA: Visit #0
+Total wait time: 0
+Total visit time: 3
+Total Gold Owed: 3
+
+
+NINJA: Visit #0
+Total wait time: 0
+Total visit time: 13
+Total Gold Owed: 13
+
+
+PIRATE: Visit #0
+Total wait time: 2
+Total visit time: 2
+Total Gold Owed: 2
+
+
+PIRATE: Visit #0
+Total wait time: 15
+Total visit time: 3
+Total Gold Owed: 3
+
+
+PIRATE: Visit #0
+Total wait time: 10
+Total visit time: 7
+Total Gold Owed: 7
+
+
+NINJA: Visit #0
+Total wait time: 18
+Total visit time: 3
+Total Gold Owed: 3
+
+
+NINJA: Visit #0
+Total wait time: 17
+Total visit time: 4
+Total Gold Owed: 4
+
+
+NINJA: Visit #0
+Total wait time: 0
+Total visit time: 6
+Total Gold Owed: 6
+
+
+NINJA: Visit #0
+Total wait time: 0
+Total visit time: 6
+Total Gold Owed: 6
+
+
+NINJA: Visit #0
+Total wait time: 0
+Total visit time: 6
+Total Gold Owed: 6
+
+
+PIRATE: Visit #0
+Total wait time: 10
+Total visit time: 3
+Total Gold Owed: 3
+
+
+PIRATE: Visit #0
+Total wait time: 9
+Total visit time: 3
+Total Gold Owed: 3
+
+
+PIRATE: Visit #0
+Total wait time: 8
+Total visit time: 13
+Total Gold Owed: 13
+
+
+NINJA: Visit #0
+Total wait time: 27
+Total visit time: 1
+Total Gold Owed: 1
+
+
+NINJA: Visit #0
+Total wait time: 28
+Total visit time: 2
+Total Gold Owed: 2
+
+
+NINJA: Visit #0
+Total wait time: 23
+Total visit time: 1
+Total Gold Owed: 1
+
+
+NINJA: Visit #0
+Total wait time: 28
+Total visit time: 9
+Total Gold Owed: 9
+
+
+NINJA: Visit #0
+Total wait time: 26
+Total visit time: 16
+Total Gold Owed: 16
+
+
+PIRATE: Visit #0
+Total wait time: 24
+Total visit time: 0
+Total Gold Owed: 0
+
+
+PIRATE: Visit #0
+Total wait time: 28
+Total visit time: 2
+Total Gold Owed: 2
+
+
+PIRATE: Visit #0
+Total wait time: 62
+Total visit time: 7
+Total Gold Owed: 0
+
+
+NINJA: Visit #0
+Total wait time: 14
+Total visit time: 2
+Total Gold Owed: 2
+
+
+NINJA: Visit #0
+Total wait time: 4
+Total visit time: 3
+Total Gold Owed: 3
+
+
+NINJA: Visit #0
+Total wait time: 2
+Total visit time: 5
+Total Gold Owed: 5
+
+
+NINJA: Visit #0
+Total wait time: 8
+Total visit time: 10
+Total Gold Owed: 10
+
+
+NINJA: Visit #1
+Total wait time: 16
+Total visit time: 12
+Total Gold Owed: 18
+
+
+PIRATE: Visit #0
+Total wait time: 9
+Total visit time: 5
+Total Gold Owed: 5
+
+
+PIRATE: Visit #0
+Total wait time: 35
+Total visit time: 6
+Total Gold Owed: 0
+
+
+PIRATE: Visit #0
+Total wait time: 13
+Total visit time: 13
+Total Gold Owed: 13
+
+
+NINJA: Visit #0
+Total wait time: 19
+Total visit time: 0
+Total Gold Owed: 0
+
+
+NINJA: Visit #0
+Total wait time: 18
+Total visit time: 0
+Total Gold Owed: 0
+
+
+NINJA: Visit #0
+Total wait time: 19
+Total visit time: 5
+Total Gold Owed: 5
+
+
+NINJA: Visit #0
+Total wait time: 17
+Total visit time: 6
+Total Gold Owed: 6
+
+
+NINJA: Visit #0
+Total wait time: 22
+Total visit time: 6
+Total Gold Owed: 6
+
+
+PIRATE: Visit #0
+Total wait time: 44
+Total visit time: 1
+Total Gold Owed: 0
+
+
+PIRATE: Visit #0
+Total wait time: 50
+Total visit time: 8
+Total Gold Owed: 0
+
+
+PIRATE: Visit #1
+Total wait time: 11
+Total visit time: 15
+Total Gold Owed: 18
+
+
+NINJA: Visit #0
+Total wait time: 25
+Total visit time: 0
+Total Gold Owed: 0
+
+
+NINJA: Visit #0
+Total wait time: 22
+Total visit time: 1
+Total Gold Owed: 1
+
+
+NINJA: Visit #0
+Total wait time: 25
+Total visit time: 4
+Total Gold Owed: 4
+
+
+NINJA: Visit #0
+Total wait time: 33
+Total visit time: 7
+Total Gold Owed: 0
+
+
+NINJA: Visit #1
+Total wait time: 16
+Total visit time: 12
+Total Gold Owed: 22
+
+
+PIRATE: Visit #1
+Total wait time: 20
+Total visit time: 0
+Total Gold Owed: 13
+
+
+PIRATE: Visit #0
+Total wait time: 22
+Total visit time: 8
+Total Gold Owed: 8
+
+
+PIRATE: Visit #0
+Total wait time: 28
+Total visit time: 11
+Total Gold Owed: 11
+
+
+NINJA: Visit #0
+Total wait time: 32
+Total visit time: 0
+Total Gold Owed: 0
+
+
+NINJA: Visit #0
+Total wait time: 93
+Total visit time: 0
+Total Gold Owed: 0
+
+
+NINJA: Visit #0
+Total wait time: 32
+Total visit time: 2
+Total Gold Owed: 0
+
+
+NINJA: Visit #0
+Total wait time: 42
+Total visit time: 2
+Total Gold Owed: 0
+
+
+NINJA: Visit #0
+Total wait time: 41
+Total visit time: 7
+Total Gold Owed: 0
+
+
+PIRATE: Visit #0
+Total wait time: 48
+Total visit time: 0
+Total Gold Owed: 0
+
+
+PIRATE: Visit #0
+Total wait time: 54
+Total visit time: 7
+Total Gold Owed: 0
+
+
+PIRATE: Visit #0
+Total wait time: 54
+Total visit time: 9
+Total Gold Owed: 0
+
+
+NINJA: Visit #0
+Total wait time: 79
+Total visit time: 0
+Total Gold Owed: 0
+
+
+NINJA: Visit #1
+Total wait time: 85
+Total visit time: 1
+Total Gold Owed: 0
+
+
+NINJA: Visit #0
+Total wait time: 107
+Total visit time: 2
+Total Gold Owed: 0
+
+
+NINJA: Visit #0
+Total wait time: 109
+Total visit time: 4
+Total Gold Owed: 0
+
+
+NINJA: Visit #0
+Total wait time: 113
+Total visit time: 5
+Total Gold Owed: 0
+
+
+PIRATE: Visit #0
+Total wait time: 155
+Total visit time: 0
+Total Gold Owed: 0
+
+
+PIRATE: Visit #0
+Total wait time: 157
+Total visit time: 1
+Total Gold Owed: 0
+
+
+PIRATE: Visit #0
+Total wait time: 167
+Total visit time: 2
+Total Gold Owed: 0
+
+
+PIRATE: Visit #0
+Total wait time: 15
+Total visit time: 14
+Total Gold Owed: 14
+
+
+NINJA: Visit #1
+Total wait time: 7
+Total visit time: 2
+Total Gold Owed: 2
+
+
+NINJA: Visit #0
+Total wait time: 32
+Total visit time: 2
+Total Gold Owed: 0
+
+
+NINJA: Visit #0
+Total wait time: 20
+Total visit time: 3
+Total Gold Owed: 3
+
+
+NINJA: Visit #1
+Total wait time: 7
+Total visit time: 8
+Total Gold Owed: 9
+
+
+NINJA: Visit #1
+Total wait time: 58
+Total visit time: 9
+Total Gold Owed: 13
+
+
+PIRATE: Visit #0
+Total wait time: 71
+Total visit time: 0
+Total Gold Owed: 0
+
+
+PIRATE: Visit #0
+Total wait time: 52
+Total visit time: 1
+Total Gold Owed: 0
+
+
+PIRATE: Visit #0
+Total wait time: 72
+Total visit time: 2
+Total Gold Owed: 0
+
+
+NINJA: Visit #1
+Total wait time: 75
+Total visit time: 0
+Total Gold Owed: 6
+
+
+NINJA: Visit #0
+Total wait time: 68
+Total visit time: 3
+Total Gold Owed: 0
+
+
+NINJA: Visit #1
+Total wait time: 46
+Total visit time: 5
+Total Gold Owed: 6
+
+
+NINJA: Visit #0
+Total wait time: 132
+Total visit time: 10
+Total Gold Owed: 0
+
+
+NINJA: Visit #0
+Total wait time: 69
+Total visit time: 11
+Total Gold Owed: 0
+
+
+PIRATE: Visit #0
+Total wait time: 87
+Total visit time: 0
+Total Gold Owed: 0
+
+
+PIRATE: Visit #0
+Total wait time: 69
+Total visit time: 1
+Total Gold Owed: 0
+
+
+PIRATE: Visit #0
+Total wait time: 85
+Total visit time: 11
+Total Gold Owed: 0
+
+
+NINJA: Visit #0
+Total wait time: 183
+Total visit time: 1
+Total Gold Owed: 0
+
+
+NINJA: Visit #1
+Total wait time: 185
+Total visit time: 4
+Total Gold Owed: 7
+
+
+NINJA: Visit #0
+Total wait time: 179
+Total visit time: 3
+Total Gold Owed: 0
+
+
+NINJA: Visit #1
+Total wait time: 46
+Total visit time: 8
+Total Gold Owed: 0
+
+
+NINJA: Visit #0
+Total wait time: 190
+Total visit time: 10
+Total Gold Owed: 0
+
+
+PIRATE: Visit #0
+Total wait time: 7
+Total visit time: 10
+Total Gold Owed: 10
+
+
+PIRATE: Visit #0
+Total wait time: 11
+Total visit time: 13
+Total Gold Owed: 13
+
+
+PIRATE: Visit #0
+Total wait time: 10
+Total visit time: 14
+Total Gold Owed: 14
+
+
+NINJA: Visit #0
+Total wait time: 65
+Total visit time: 0
+Total Gold Owed: 0
+
+
+NINJA: Visit #0
+Total wait time: 224
+Total visit time: 2
+Total Gold Owed: 0
+
+
+NINJA: Visit #2
+Total wait time: 9
+Total visit time: 3
+Total Gold Owed: 3
+
+
+NINJA: Visit #1
+Total wait time: 20
+Total visit time: 8
+Total Gold Owed: 8
+
+
+NINJA: Visit #2
+Total wait time: 2
+Total visit time: 10
+Total Gold Owed: 23
+
+
+PIRATE: Visit #0
+Total wait time: 56
+Total visit time: 2
+Total Gold Owed: 0
+
+
+PIRATE: Visit #0
+Total wait time: 72
+Total visit time: 2
+Total Gold Owed: 0
+
+
+PIRATE: Visit #0
+Total wait time: 80
+Total visit time: 10
+Total Gold Owed: 0
+
+
+NINJA: Visit #0
+Total wait time: 248
+Total visit time: 0
+Total Gold Owed: 0
+
+
+NINJA: Visit #0
+Total wait time: 243
+Total visit time: 0
+Total Gold Owed: 0
+
+
+NINJA: Visit #1
+Total wait time: 12
+Total visit time: 2
+Total Gold Owed: 7
+
+
+NINJA: Visit #2
+Total wait time: 15
+Total visit time: 2
+Total Gold Owed: 4
+
+
+NINJA: Visit #2
+Total wait time: 19
+Total visit time: 2
+Total Gold Owed: 8
+
+
+NINJA: Visit #1
+Total wait time: 7
+Total visit time: 10
+Total Gold Owed: 10
+
+
+PIRATE: Visit #0
+Total wait time: 38
+Total visit time: 1
+Total Gold Owed: 0
+
+
+PIRATE: Visit #0
+Total wait time: 100
+Total visit time: 1
+Total Gold Owed: 0
+
+
+PIRATE: Visit #0
+Total wait time: 101
+Total visit time: 9
+Total Gold Owed: 0
+
+
+NINJA: Visit #1
+Total wait time: 2
+Total visit time: 9
+Total Gold Owed: 9
+
+
+PIRATE: Visit #0
+Total wait time: 150
+Total visit time: 4
+Total Gold Owed: 0
+
+
+PIRATE: Visit #0
+Total wait time: 123
+Total visit time: 7
+Total Gold Owed: 0
+
+
+PIRATE: Visit #0
+Total wait time: 50
+Total visit time: 13
+Total Gold Owed: 0
+
+
+NINJA: Visit #2
+Total wait time: 12
+Total visit time: 0
+Total Gold Owed: 9
+
+
+NINJA: Visit #2
+Total wait time: 2
+Total visit time: 4
+Total Gold Owed: 12
+
+
+PIRATE: Visit #0
+Total wait time: 241
+Total visit time: 4
+Total Gold Owed: 0
+
+
+PIRATE: Visit #0
+Total wait time: 250
+Total visit time: 4
+Total Gold Owed: 0
+
+
+PIRATE: Visit #0
+Total wait time: 205
+Total visit time: 12
+Total Gold Owed: 0
+
+
+NINJA: Visit #2
+Total wait time: 0
+Total visit time: 0
+Total Gold Owed: 10
+
+
+NINJA: Visit #3
+Total wait time: 7
+Total visit time: 5
+Total Gold Owed: 17
+
+
+NINJA: Visit #3
+Total wait time: 0
+Total visit time: 2
+Total Gold Owed: 6
+
+
+PIRATE: Visit #0
+Total wait time: 272
+Total visit time: 2
+Total Gold Owed: 0
+
+
+PIRATE: Visit #0
+Total wait time: 263
+Total visit time: 5
+Total Gold Owed: 0
+
+
+PIRATE: Visit #1
+Total wait time: 261
+Total visit time: 17
+Total Gold Owed: 2
+
+
+PIRATE: Visit #0
+Total wait time: 33
+Total visit time: 4
+Total Gold Owed: 0
+
+
+PIRATE: Visit #0
+Total wait time: 32
+Total visit time: 8
+Total Gold Owed: 0
+
+
+PIRATE: Visit #0
+Total wait time: 254
+Total visit time: 11
+Total Gold Owed: 0
+
+
+PIRATE: Visit #1
+Total wait time: 28
+Total visit time: 1
+Total Gold Owed: 1
+
+
+PIRATE: Visit #1
+Total wait time: 44
+Total visit time: 2
+Total Gold Owed: 3
+
+
+PIRATE: Visit #1
+Total wait time: 40
+Total visit time: 2
+Total Gold Owed: 11
+
+
+PIRATE: Visit #1
+Total wait time: 9
+Total visit time: 1
+Total Gold Owed: 1
+
+
+PIRATE: Visit #1
+Total wait time: 0
+Total visit time: 13
+Total Gold Owed: 27
+
+
+PIRATE: Visit #1
+Total wait time: 0
+Total visit time: 5
+Total Gold Owed: 5
+
+
+PIRATE: Visit #1
+Total wait time: 0
+Total visit time: 8
+Total Gold Owed: 8
+
+
+PIRATE: Visit #2
+Total wait time: 0
+Total visit time: 7
+Total Gold Owed: 18
+
+
+PIRATE: Visit #2
+Total wait time: 0
+Total visit time: 13
+Total Gold Owed: 18
+
+
+PIRATE: Visit #3
+Total wait time: 0
+Total visit time: 0
+Total Gold Owed: 18
+
+
+PIRATE: Visit #0
+Total wait time: 0
+Total visit time: 2
+Total Gold Owed: 2
+
+
+Team 0 was free for 710 seconds
+Team 0 was busy with pirates for 159 seconds and busy with ninjas for 75 seconds
+Team 1 was free for 781 seconds
+Team 1 was busy with pirates for 82 seconds and busy with ninjas for 81 seconds
+Team 2 was free for 746 seconds
+Team 2 was busy with pirates for 121 seconds and busy with ninjas for 77 seconds
+Team 3 was free for 862 seconds
+Team 3 was busy with pirates for 0 seconds and busy with ninjas for 82 seconds
+Ninjas had 27 free costumes and owe 217 gold
+Pirates had 36 free costumes and owe 186 gold
+Average queue length was 8
+Average gold per visit: 2
+Gross Revenue was 403
+Total Profit was 383
+

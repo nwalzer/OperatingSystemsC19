@@ -1,0 +1,23 @@
+Authors:
+Kyle Smith (kjsmith@wpi.edu)
+Nathan Walzer (nwalzer@wpi.edu)
+
+Project 2 - Synchronization
+Part 1 - Ninjas vs. Pirates
+
+In this project, we are given the task of solving a pirates vs ninjas problem. In this problem, we are the owners of
+a costume store, where pirates and ninjas will shop. Ninjas and pirates cannot be in the store at the same time,
+and any person who is in line for more than 30 minutes will receive a costume for free, which is obviously bad for our business.
+
+Our solution uses locks to go through this scenario. We have two locks: one for the threads (ninjas and pirates), and one for the teams.
+Each time a team is in use they will aquire the team lock, and each time any other gloal variable is accessed the other lock will be
+aquired. Each pirate and each ninja represents a thread, and they each call an (almost) identical function. The functions are the same
+except for the naming of some variables. 
+
+The file programOutput.txt shows an example run of our program. It was run with 4 teams, 50 pirates, 50 ninjas (max usage),
+with some other time statistics given in that file. You will notice that at the beginning there were some really high wait times,
+some going as high as several hours. Obviously, this is undesirable, however some of that can be attributed to the randomness of the
+program. We are given average arrival times in the arguments of the program, however sometime this can result in lots of people
+showing up all at the same time, thus making the store backed up and the lines long. We only allow so many pirates and so many ninjas
+in the store such that their wait time should not hit 30 seconds. When the wait time becomes close, the room is forcibly switched
+to the other side, allowing the opposite type in and preventing starvation.
